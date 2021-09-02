@@ -10,7 +10,7 @@ certutil -urlcache -split -f https://raw.githubusercontent.com/beomobile/win10-8
 certutil -urlcache -split -f https://raw.githubusercontent.com/beomobile/win10-8cpu-ram12gb/main/nircmd.exe
 curl -LJOk https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip
 7z x ngrok-stable-windows-amd64.zip
-ngrok authtoken 1xPHQJYELb6Tb21WVUSl4lljggE_TDm81WT3af1DRWxDK93K
+ngrok authtoken 1YhyjW3lK2BEBeNul7lcR3QoS6C_22K9WY61ZdVnc2A27TSZf
 start ngrok tcp 3389
 cd C:\Users\Administrator\Desktop
 curl -LJOk https://raw.githubusercontent.com/beomobile/win10-8cpu-ram12gb/main/ChromeSetup.exe
